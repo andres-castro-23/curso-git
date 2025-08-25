@@ -33,7 +33,7 @@ def main():
     while True:
         op = input("Operación (+, -, *, /): ").strip()
         if op.lower() == "salir":
-            print("¡Hasta pronto!")
+            print("¡Hasta luego!")
             break
 
         if op not in operaciones:
